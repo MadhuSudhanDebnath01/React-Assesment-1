@@ -10,6 +10,8 @@ class App extends React.Component{
       showClass: false,
       showFunction:false 
  };   
+
+ }
 render(){
   return (
     <div className="container">
@@ -21,10 +23,10 @@ render(){
       {console.log(this.state.showFunction)}
       </div>
     
-     
+      <div className="card">
        {this.state.showClass ? <Class /> : null} 
       {this.state.showFunction ?  <Function /> : null} 
-      
+      </div>
 
     </div>
   );

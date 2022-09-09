@@ -4,7 +4,7 @@ import './mystyle.css';
 class Class extends React.Component{
     
     render(){
-        
+    
         return(
           <div className='box'>
         <h2>This is created using class component </h2>
